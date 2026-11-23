@@ -1,0 +1,106 @@
+/*public class BinarySearch {
+
+    // binary search
+    public static int binary(int numbers[], int key) {
+        int start = 0;
+        int end = numbers.length - 1;
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            // comparison
+            if (numbers[mid] == key) {
+                return mid;
+            }
+            if (numbers[mid] < key) {
+                start = mid + 1;
+            } else {
+                end = mid - 1;
+            }
+        }
+        return -1;
+    }
+
+    public static void main(String[] args) {
+        int numbers[] = {2, 4, 5, 6, 7, 9, 33, 55, 88};
+        int key = 60 ;
+        System.out.println("Index = " + binary(numbers, key));
+    }
+}*/
+
+
+// Reverse an Array [2 , 4 , 6 , 8 , 10 ,88]
+/*public class BinarySearch {
+
+    // make a funcation 
+    public static void revarse(int a[]){
+        int start = 0;
+         int end = a.length - 1;
+
+         while(start < end) {
+            // swapd tec...
+            int temp = a[end];
+            a[end] = a[start];
+            a[start] = temp;
+
+            start++;
+            end--;
+         }
+    }
+    public static void main(String[] args) {
+        int a[] = {2 , 4 , 6 , 8 , 10, 88};
+        revarse(a);
+        // print the revarse array
+        for (int i = 0; i < a.length; i++){
+            System.out.println(a[i] +"");
+        }
+        System.out.println();
+    }
+
+}*/
+
+// Question Pairs in an Array [2, 4, 6, 8, 10]
+/*public class BinarySearch{
+    // function cerate 
+    public static void printPairs(int number[]){
+        int tp = 0;
+        for(int i = 0; i < number.length; i++){
+            int current = number[i]; //2, 4, 6, 8, 10
+            for(int j = i+1; j < number.length; j++){
+                System.out.println("(" + current + "," + number[j] + ")");
+                tp++;
+            }
+
+            System.out.println();
+        }
+        System.out.println("total pairs " + tp);
+    }
+    public static void main(String[] args) {
+        int number[] = {2,8,9,5,4};
+        printPairs(number);
+    }
+}
+*/
+
+// print Subarrays [2,4,6,8,10]
+public class BinarySearch{
+    public static void Subarray(int number[]){
+        int total = 0;
+        for(int i = 0; i < number.length; i++){
+            int start = i;
+            for (int j = i + 1; j < number.length; j++){
+                int end = j;
+                for (int k = start; k <= end; k++){
+                    System.out.println(number[k] + "");
+                }
+                total++;
+                System.out.println();
+            }
+            System.out.println();
+        }
+        System.out.println("total number of Pairs : " + total);
+    }
+
+    public static void main(String[] args){
+        int number[] = {2,4,6,8,10};
+        Subarray(number);
+    }
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Portfolio of Manish Kumar — CSE student building real-world projects: web apps, mobile apps, and AI tools.">
+<meta name="author" content="Manish Kumar">
+<title>Relentless — Manish Kumar</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="page">
+<div id="head">
+<div id="logo">Relentless</div>
+<div id="who">Portfolio of <a href="#contact">Manish Kumar</a><br><span id="dt" aria-live="polite"></span><br>
+<svg width="22" height="20" viewBox="0 0 22 20" aria-hidden="true"><circle cx="8" cy="6" r="4" fill="#5b7894"/><path d="M0 18c0-5 4-7 8-7s8 2 8 7z" fill="#5b7894"/><path d="M15 8h6m-3-3l3 3-3 3" stroke="#ff9d33" stroke-width="2" fill="none"/></svg><button id="search-toggle" class="icon-button" type="button" aria-label="Open site search" aria-expanded="false" aria-controls="site-search"><svg width="22" height="20" viewBox="0 0 22 20" aria-hidden="true"><circle cx="9" cy="9" r="7" fill="none" stroke="#8aa4bd" stroke-width="2"/><path d="M14 14l6 5" stroke="#ff9d33" stroke-width="3"/></svg></button><svg width="22" height="20" viewBox="0 0 22 20" aria-hidden="true"><circle cx="4" cy="16" r="2.5" fill="#ff9d33"/><path d="M2 8a10 10 0 0 1 10 10M2 2a16 16 0 0 1 16 16" stroke="#ff9d33" stroke-width="3" fill="none"/></svg></div>
+</div>
+<form id="site-search" role="search" hidden>
+<label for="search-query">Search this site</label>
+<div class="search-controls"><input id="search-query" type="search" autocomplete="off" placeholder="Search projects and pages"><button type="submit">Search</button></div>
+<div id="search-results" aria-live="polite"></div>
+</form>
+<nav aria-label="Main navigation">
+<a href="#about" data-v="about">About</a><a href="#archives" data-v="archives">Archives</a><a href="#recent" data-v="recent">Blog</a><a href="#progress" data-v="progress">Progress</a><a href="#resume" data-v="resume" class="acct">Resume</a><a href="#news" data-v="news">Journey</a><a href="#contact" data-v="contact">Contact</a>
+</nav>
+
+<main>
+<section class="view" id="v-about">
+<h2>About Manish Kumar</h2>
+<div class="sec"><img class="pic" alt="Manish Kumar" src="images/manish.jpg" loading="lazy" width="180" height="180">
+<h3>Where should I start?</h3>
+<p>I am Manish Kumar, a Computer Science Engineering student and full-stack developer building practical, responsive, and real-world applications. Explore my <a href="#archives">project archive</a> for my completed work or visit the <a href="#recent">Blog</a> page for regular updates on my learning and training.</p></div>
+<div class="sec"><h3>What do I build?</h3>
+<p>I build web applications, backend systems, and database-driven solutions using PHP, Java, JavaScript, React, MySQL, and PostgreSQL. My projects include a school management system, documentation hub, tree monitoring platform, contact manager, and Java practice applications.</p></div>
+<div class="sec"><h3>Can I hire or work with you?</h3>
+<p>Yes. I am open to internships, entry-level software development opportunities, and project collaborations. Visit the <a href="#contact">Contact</a> page to contact me by email or phone, or connect with me on GitHub and LinkedIn.</p></div>
+</section>
+
+<section class="view" id="v-archives">
+<h2>Archives</h2>
+<div class="tw"><table id="ptable"></table></div>
+<h3>Thinking Ideas</h3>
+<div class="tw"><table>
+<tr><th class="n">No.</th><th>Idea</th><th>Technology / Direction</th></tr>
+<tr><td class="n">1</td><td>AI-powered resume and job matching platform</td><td>React, Node.js, NLP, MongoDB</td></tr>
+<tr><td class="n">2</td><td>Smart environmental monitoring platform</td><td>IoT, React, PostgreSQL, AI image analysis</td></tr>
+<tr><td class="n">3</td><td>Voice-based college information assistant</td><td>Speech recognition, NLP, PHP, MySQL</td></tr>
+<tr><td class="n">4</td><td>Real-time campus attendance system</td><td>Face recognition, Web API, MySQL</td></tr>
+</table></div>
+<h3>PetSphere Documents</h3>
+<div class="document-list">
+<a href="documents/petsphere/PetSphere_Global_Business_Blueprint.docx" target="_blank" rel="noopener">Global Business Blueprint</a>
+<a href="documents/petsphere/PetSphere_Vol1_Product_PRD.docx" target="_blank" rel="noopener">Volume 1 — Product Vision &amp; PRD</a>
+<a href="documents/petsphere/PetSphere_Vol2_UIUX_Figma_Guide.docx" target="_blank" rel="noopener">Volume 2 — UI/UX &amp; Figma Guide</a>
+<a href="documents/petsphere/PetSphere_Vol3_Frontend_Architecture.docx" target="_blank" rel="noopener">Volume 3 — Frontend Architecture</a>
+<a href="documents/petsphere/PetSphere_Vol4_Backend_Database.docx" target="_blank" rel="noopener">Volume 4 — Backend &amp; Database</a>
+<a href="documents/petsphere/PetSphere_Vol5_AI_DevOps_Security.docx" target="_blank" rel="noopener">Volume 5 — AI, DevOps &amp; Security</a>
+</div>
+</section>
+
+<section class="view" id="v-project"></section>
+
+<section class="view" id="v-recent">
+<h2>Blog</h2>
+<div id="b-body"></div>
+</section>
+
+<section class="view" id="v-progress">
+<h2>Progress</h2>
+<div class="tw"><table><tr><th>Skill</th><th>Level</th></tr>
+<tr><td>HTML / CSS</td><td>Strong</td></tr>
+<tr><td>JavaScript</td><td>Strong</td></tr>
+<tr><td>Python</td><td>Working</td></tr>
+<tr><td>React</td><td>Learning</td></tr>
+<tr><td>Machine Learning</td><td>Learning</td></tr>
+</table></div>
+<h3>Certifications</h3>
+<div class="document-list">
+<a href="documents/CDot.pdf" target="_blank" rel="noopener">Cisco / C-DAC Training Certificate</a>
+<a href="documents/BCCCO_2026_7153257hfhd.pdf" target="_blank" rel="noopener">BCCCO Certificate</a>
+</div>
+</section>
+
+<section class="view" id="v-resume">
+<div class="resume-heading">
+<h2>Resume</h2>
+<a class="resume-download" href="resume.pdf" download="_manishkumar_cv.pdf" aria-label="Download Manish Kumar's resume" title="Download resume">
+<svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+<path d="M12 3v12m0 0l-5-5m5 5l5-5M5 21h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</a>
+</div>
+<div id="r-body"></div>
+</section>
+
+<section class="view" id="v-news">
+<h2>Journey</h2>
+<div class="tw"><table><tr><th>Course</th><th>Institute</th><th>Marks</th><th>Year</th></th></tr><tr><td>B.Tech, Computer Science Engineering</td><td>Gyan Ganga College of Technology</td><td>7.85 GPA</td><td>2023–2026</td></tr>
+    </tr><tr><td>Diploma, Computer Science Engineering</td><td>Ambition Institute of Technology - Varanasi</td><td>76.8 %</td><td>2021–2023</td></tr>
+     </tr><tr><td>12th - PCM </td><td>Bhupesh Gupta College,Bhabua,BIHAR</td><td>64.2 % </td><td>2020</td></tr>
+      </tr><tr><td>10th</td><td>Nitin Pub. Sch. Bhiwari - Alwar</td><td>54 %</td><td>2018</td></tr>
+</table></div>
+<h3>Recent Training</h3>
+    <div class="tw"><table><tr><th>Role</th><th>Organisation</th><th>Period</th><th>Completion</th></tr><tr><td>ACC-HPC Training</td><td>C-DAC, Noida</td><td>6 Months</td><td>2026</td></tr>
+</table></div>
+<h3>Internships</h3>
+<div class="tw"><table><tr><th>Role</th><th>Organisation</th><th>Period</th></tr><tr><td>Intern WEB-DEV</td><td>Dream Infonet Pvt. Ltd.</td><td>2 Months</td></tr></table></div>
+<h3>Certificates &amp; Mark Sheets</h3>
+<div class="document-list">
+<a href="documents/Graduation%20Marksheet.pdf" target="_blank" rel="noopener">B.Tech Graduation Marksheet</a><br>
+<a href="documents/Diploma%20Certificate.pdf" target="_blank" rel="noopener">Diploma Certificate</a>
+<a href="documents/diploma%20marksheet.pdf" target="_blank" rel="noopener">Diploma Marksheet</a>
+<br>
+<a href="documents/12th%20Certificate.pdf" target="_blank" rel="noopener">12th Certificate</a><br>
+<a href="documents/10th%20Board_certificate_compressed.pdf" target="_blank" rel="noopener">10th Board Certificate</a>
+<a href="documents/8-SEM%20-%20(CSE)%20final%20%20year%20result.pdf" target="_blank" rel="noopener">B.Tech 8th Semester Result</a>
+
+</div>
+</section>
+<section class="view" id="v-contact">
+<h2>Contact</h2>
+<p id="c-body"></p>
+</section>
+</main>
+</div>
+<footer class="site-footer">
+<p class="site-footer__tagline">Manish Kumar · Computer Science Engineering student · learning by building real things</p>
+<p class="site-footer__copy">&copy; <span id="year"></span> Manish Kumar</p>
+</footer>
+<script src="data/data.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>   

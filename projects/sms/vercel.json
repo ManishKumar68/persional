@@ -1,0 +1,30 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/api/router.php"
+    },
+    {
+      "source": "/(.+\.php)",
+      "destination": "/api/router.php"
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/login",
+      "destination": "/login.php",
+      "statusCode": 308
+    },
+    {
+      "source": "/logout",
+      "destination": "/logout.php",
+      "statusCode": 308
+    }
+  ]
+}
+
