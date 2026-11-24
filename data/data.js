@@ -8,12 +8,12 @@ var DATA = {
       {
         "title": "Starting the Daily Learning Journal",
         "date": "23 November 2026",
-        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+        "summary": "Tech Blog start"
       },
        {
-        "title": "Starting the Daily Learning Journal",
-        "date": "23 November 2026",
-        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+        "title": "Explore new concept",
+        "date": "24 November 2026",
+        "summary": "Spent today sharpening my C++ fundamentals on YouTube—practicing bool, char, auto, and mixed-type operations by solving two coding problems.explored game-based coding platforms like Codédex and The Farmer Was Replaced  to see how logic drives game mechanics.Checked out linkedin to fresher software openings at HCLTech and more company.",
       }
     ],
     "resume": {
