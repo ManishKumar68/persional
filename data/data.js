@@ -6,14 +6,18 @@ var DATA = {
     "linkedin": "https://www.linkedin.com/in/manish-kumar79",
    "blog": [
   {
-    "title": "Starting the Daily Learning Journal",
+    "title": "Starting the Daily Learning Journay",
     "date": "23 November 2026",
-    "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+    "summary":  "Tech.. journay"
   },
   {
     "title": "Explore new concept",
     "date": "24 November 2026",
-    "summary": "Learned C++ data types (bool, char, auto) and mixed-type operations via YouTube, solved 2 practice problems, explored coding games on <a href='https://codedex.io' target='_blank' rel='noopener noreferrer'>Codédex</a> and <a href='https://thefarmerwasreplaced.com' target='_blank' rel='noopener noreferrer'>The Farmer Was Replaced</a>, and checked fresher software roles at <a href='https://hcltech.com' target='_blank' rel='noopener noreferrer'>HCLTech Careers</a>."
+    "summary": [ 
+                "Spent today sharpening my C++ fundamentals on YouTube—practicing bool, char, auto, and mixed-type operations by solving two coding problems.",
+                "explored game-based coding platforms like Codédex and The Farmer Was Replaced  to see how logic drives game mechanics.",
+                "checked out linkedin to fresher software openings at HCLTech and more company.",
+               ]
   }
 ],
     "resume": {
