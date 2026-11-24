@@ -10,7 +10,6 @@ var DATA = {
         "date": "23 November 2026",
         "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
       },
-      [
   {
     "title": "Explore new concept",
     "date": "24 November 2026",
@@ -20,8 +19,7 @@ var DATA = {
       { "name": "The Farmer Was Replaced", "url": "https://thefarmerwasreplaced.com" },
       { "name": "HCLTech Careers", "url": "https://hcltech.com" }
     ]
-  }
-],
+  },
     ],
     "resume": {
       "summary": "Computer Science Engineering graduate with internship and full-stack project experience. Skilled in C++, DSA, SQL, responsive web development, backend functionality, database management, and debugging. Interested in software development and API integration.",
