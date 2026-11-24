@@ -4,22 +4,18 @@ var DATA = {
     "phone": "+91-8651060667",
     "github": "https://github.com/ManishKumar68",
     "linkedin": "https://www.linkedin.com/in/manish-kumar79",
-   "blog": [
-  {
-    "title": "Starting the Daily Learning Journay",
-    "date": "23 November 2026",
-    "summary":  "Tech.. journay"
-  },
-  {
-    "title": "Explore new concept",
-    "date": "24 November 2026",
-    "summary": [ 
-                "Spent today sharpening my C++ fundamentals on YouTube—practicing bool, char, auto, and mixed-type operations by solving two coding problems.",
-                "explored game-based coding platforms like Codédex and The Farmer Was Replaced  to see how logic drives game mechanics.",
-                "checked out linkedin to fresher software openings at HCLTech and more company.",
-               ]
-  }
-],
+    "blog": [
+      {
+        "title": "Starting the Daily Learning Journal",
+        "date": "23 November 2026",
+        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+      },
+       {
+        "title": "Starting the Daily Learning Journal",
+        "date": "23 November 2026",
+        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+      }
+    ],
     "resume": {
       "summary": "Computer Science Engineering graduate with internship and full-stack project experience. Skilled in C++, DSA, SQL, responsive web development, backend functionality, database management, and debugging. Interested in software development and API integration.",
       "skills": [
