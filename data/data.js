@@ -11,10 +11,10 @@ var DATA = {
         "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
       },
        {
-        "title": "Starting the Daily Learning Journal",
-        "date": "23 November 2026",
-        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
-      }
+        "title": "Explore new concept",
+        "date": "24 November 2026",
+        "summary": "Learned C++ data types (bool, char, auto) and mixed-type operations via YouTube, solved 2 practice problems, explored coding games on <a href='https://codedex.io'>Codédex</a> and <a href='https://thefarmerwasreplaced.com'>The Farmer Was Replaced</a>, and checked fresher software roles at <a href='https://hcltech.com'>HCLTech</a>."
+     },
     ],
     "resume": {
       "summary": "Computer Science Engineering graduate with internship and full-stack project experience. Skilled in C++, DSA, SQL, responsive web development, backend functionality, database management, and debugging. Interested in software development and API integration.",
