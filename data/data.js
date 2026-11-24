@@ -4,23 +4,18 @@ var DATA = {
     "phone": "+91-8651060667",
     "github": "https://github.com/ManishKumar68",
     "linkedin": "https://www.linkedin.com/in/manish-kumar79",
-    "blog": [
-      {
-        "title": "Starting the Daily Learning Journal",
-        "date": "23 November 2026",
-        "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
-      },
+   "blog": [
+  {
+    "title": "Starting the Daily Learning Journal",
+    "date": "23 November 2026",
+    "summary": "I am documenting what I learn in HPC, web development, and software engineering, one update at a time."
+  },
   {
     "title": "Explore new concept",
     "date": "24 November 2026",
-    "summary": "Learned C++ data types (bool, char, auto) and mixed-type operations via YouTube, solved 2 practice problems, explored coding games, and checked fresher software roles.",
-    "links": [
-      { "name": "Codédex", "url": "https://codedex.io" },
-      { "name": "The Farmer Was Replaced", "url": "https://thefarmerwasreplaced.com" },
-      { "name": "HCLTech Careers", "url": "https://hcltech.com" }
-    ]
+    "summary": "Learned C++ data types (bool, char, auto) and mixed-type operations via YouTube, solved 2 practice problems, explored coding games on <a href='https://codedex.io' target='_blank' rel='noopener noreferrer'>Codédex</a> and <a href='https://thefarmerwasreplaced.com' target='_blank' rel='noopener noreferrer'>The Farmer Was Replaced</a>, and checked fresher software roles at <a href='https://hcltech.com' target='_blank' rel='noopener noreferrer'>HCLTech Careers</a>."
   }
-    ],
+],
     "resume": {
       "summary": "Computer Science Engineering graduate with internship and full-stack project experience. Skilled in C++, DSA, SQL, responsive web development, backend functionality, database management, and debugging. Interested in software development and API integration.",
       "skills": [
